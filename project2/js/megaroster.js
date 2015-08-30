@@ -1,5 +1,8 @@
 var Megaroster = function() {
   var self = this;
+};
+
+this.init = function(){
   console.log('roster init');
 };
 
