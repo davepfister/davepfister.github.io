@@ -7,4 +7,4 @@ this.init = function(){
 };
 
 var roster = new Megaroster();
-roster.init();
+// roster.init();
