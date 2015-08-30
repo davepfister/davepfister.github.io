@@ -14,8 +14,17 @@
   <body>
     <div class="well col-sm-8 col-sm-offset-2 col-xs-12 ">
       <h1>Project 2</h1>
-      <ol>
-        <li></li>
+      <ol id="students" class="list-group">
+        <li id="list_item_template" class="list-group-item hidden"></li>
+          <label></label>
+          <div class="btn-group">
+            <button class="btn btn-sm btn-success edit">
+              <i class="fa fa-pencil"></i>
+            </button>
+            <button class="btn btn-sm btn-danger delete">
+              <i class="fa fa-trash-o">
+            </button>
+          </div>
       </ol>
       <!-- new form -->
       <form class="form-inline" role="form" id="new_student_form">
